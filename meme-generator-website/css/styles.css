@@ -1,0 +1,70 @@
+.chat-container {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.user-message {
+    background-color: #e3f2fd;
+    margin-left: auto;
+}
+
+.bot-message {
+    background-color: #f5f5f5;
+    margin-right: auto;
+}
+
+.meme-result {
+    min-height: 300px;
+    border: 2px dashed #ddd;
+    margin: 20px 0;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meme-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.meme-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000;
+    font-size: 24px;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.top-text {
+    top: 10px;
+}
+
+.bottom-text {
+    bottom: 10px;
+}
+
+.meme-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#chat-messages {
+    min-height: 300px;
+    padding: 10px;
+}
